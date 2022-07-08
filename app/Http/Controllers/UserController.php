@@ -15,5 +15,10 @@ class UserController extends Controller
     {
        dd('Users.index', $id);
     }
+
+    public function phpinfo()
+    {
+      phpinfo();
+    }
 }
  
